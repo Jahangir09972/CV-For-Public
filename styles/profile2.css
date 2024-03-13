@@ -12,6 +12,13 @@
     padding: 25px;
     line-height: 20px;
 }
+/* Smaller Device */
+@media screen and(max-width:576px) {
+    .resume{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .computer-skills{
     display: flex;
     justify-content: space-between;
